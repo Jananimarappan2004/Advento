@@ -1,0 +1,4 @@
+//Simple sql joins the joining of the two tables
+SELECT * FROM trades
+JOIN users 
+ON trades.user_id = users.user_id;
